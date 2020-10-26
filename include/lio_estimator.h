@@ -1,12 +1,14 @@
+#pragma once
 #include "base.h"
 class LioEstimator : public FrontEnd
 {
 public:
-		LioEstimator();
-		void processIMU(int a)
+    LioEstimator():a(0) {}
+
+    void processIMU(int a)
 		{
 			c = a * a;
 		}
-		
+    int a;
 		int c;
 };
