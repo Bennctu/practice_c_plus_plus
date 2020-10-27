@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/IntegrationBase.h
+iostream
+-
+
+../include/LvioIntegrationBase.h
+IntegrationBase.h
+../include/IntegrationBase.h
+
+../include/base.h
+iostream
+-
+
+../include/lio_estimator.h
+base.h
+../include/base.h
+IntegrationBase.h
+../include/IntegrationBase.h
+
+../include/lvio_estimator.h
+base.h
+../include/base.h
+LvioIntegrationBase.h
+../include/LvioIntegrationBase.h
+
+/home/ncrl/My_WorkSpace/practice_polymorphism/practice_c_plus_plus/virtual_function/src/main.cpp
+lvio_estimator.h
+/home/ncrl/My_WorkSpace/practice_polymorphism/practice_c_plus_plus/virtual_function/src/lvio_estimator.h
+lio_estimator.h
+/home/ncrl/My_WorkSpace/practice_polymorphism/practice_c_plus_plus/virtual_function/src/lio_estimator.h
+

@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.5.1)
 
 # project name
-project(practice_c_plus_plus)
+project(overloading)
 
 # clean cmake
 add_custom_target(clean-cmake-files

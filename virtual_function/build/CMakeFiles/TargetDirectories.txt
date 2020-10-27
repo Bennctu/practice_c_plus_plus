@@ -1,0 +1,4 @@
+/home/ncrl/My_WorkSpace/practice_polymorphism/practice_c_plus_plus/virtual_function/build/CMakeFiles/rebuild_cache.dir
+/home/ncrl/My_WorkSpace/practice_polymorphism/practice_c_plus_plus/virtual_function/build/CMakeFiles/edit_cache.dir
+/home/ncrl/My_WorkSpace/practice_polymorphism/practice_c_plus_plus/virtual_function/build/CMakeFiles/clean-cmake-files.dir
+/home/ncrl/My_WorkSpace/practice_polymorphism/practice_c_plus_plus/virtual_function/build/CMakeFiles/hello.dir
