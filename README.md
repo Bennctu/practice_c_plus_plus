@@ -1,7 +1,12 @@
 # practice_c_plus_plus
 
-### compile command
-```
+## Command
+```shell=
+#First time
+sudo chmod +x setup.sh
+./setup.sh
+
+#compile
 cd build
 cmake ..
 make

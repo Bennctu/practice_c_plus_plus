@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -24,9 +24,9 @@ base.h
 IntegrationBase.h
 ../include/IntegrationBase.h
 
-/home/ncrl/My_WorkSpace/practice_polymorphism/practice_c_plus_plus/src/main.cpp
+/home/ncrl/NCRL_Workspaces/catkin_ws/src/practice_c_plus_plus/src/main.cpp
 lvio_estimator.h
-/home/ncrl/My_WorkSpace/practice_polymorphism/practice_c_plus_plus/src/lvio_estimator.h
+/home/ncrl/NCRL_Workspaces/catkin_ws/src/practice_c_plus_plus/src/lvio_estimator.h
 lio_estimator.h
-/home/ncrl/My_WorkSpace/practice_polymorphism/practice_c_plus_plus/src/lio_estimator.h
+/home/ncrl/NCRL_Workspaces/catkin_ws/src/practice_c_plus_plus/src/lio_estimator.h
 
