@@ -3,14 +3,12 @@
 
 class LvioEstimator : public FrontEnd
 {
-public:
-    LvioEstimator():a(0),b(0) {};
-
-    void processIMU(int a, int b)
+	public:
+    	void processIMU()
 		{
 			c = a + b;
 		}
-    int a;
-    int b;
+    	int a;
+    	int b;
 		int c;
 };

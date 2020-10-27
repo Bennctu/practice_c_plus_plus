@@ -12,18 +12,17 @@ int main(int argc, char **argv)
 	{
 		if (flag)
 		{
-			int a = 1;
-			int b = 2;
-			lvio_estimator.processIMU(a, b);
-      std::cout << lvio_estimator.c << std::endl;
+			lvio_estimator.a = 1;
+			lvio_estimator.b = 2;
+			lvio_estimator.processIMU();// function input type need to be same as front-end class
+      		std::cout << lvio_estimator.c << std::endl;
 			flag = false;
 		}
 		else
 		{
-			int a = 3;
-			lio_estimator.processIMU(a);
-      std::cout << lio_estimator.c << std::endl;
-
+			lio_estimator.a = 3;
+			lio_estimator.processIMU();
+      		std::cout << lio_estimator.c << std::endl;
 		}
 	}
 	 

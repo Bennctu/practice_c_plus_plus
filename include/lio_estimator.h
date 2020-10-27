@@ -2,13 +2,11 @@
 #include "base.h"
 class LioEstimator : public FrontEnd
 {
-public:
-    LioEstimator():a(0) {}
-
-    void processIMU(int a)
+	public:
+    	void processIMU()
 		{
 			c = a * a;
 		}
-    int a;
+    	int a;
 		int c;
 };

@@ -4,6 +4,26 @@ cmake_minimum_required(VERSION 3.5.1)
 # project name
 project(practice_c_plus_plus)
 
+# clean cmake
+add_custom_target(clean-cmake-files
+   COMMAND ${CMAKE_COMMAND} -P clean-all.cmake
+)
+
+# clean-all.cmake
+set(cmake_generated ${CMAKE_BINARY_DIR}/CMakeCache.txt
+                    ${CMAKE_BINARY_DIR}/cmake_install.cmake
+                    ${CMAKE_BINARY_DIR}/Makefile
+                    ${CMAKE_BINARY_DIR}/CMakeFiles
+)
+
+foreach(file ${cmake_generated})
+
+  if (EXISTS ${file})
+     file(REMOVE_RECURSE ${file})
+  endif()
+
+endforeach(file)
+
 # creates the variable EXEC and sets it to hello
 set(EXEC hello)
 

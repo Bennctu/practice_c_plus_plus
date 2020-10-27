@@ -4,10 +4,10 @@
 class FrontEnd
 {
 public:
-    FrontEnd();
-    virtual void processIMU();
+    	FrontEnd(){};
+    	virtual void processIMU() = 0;
 		void print()
 		{
-      std::cout << "hi" <<std::endl;
+      		std::cout << "hi" <<std::endl;
 		}
 };
